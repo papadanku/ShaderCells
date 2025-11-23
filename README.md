@@ -45,9 +45,9 @@ Use AnythingLLM to run your AI assistant locally and offline. This guide helps y
 
 ### Step 1: Install AnythingLLM
 
-1. **Download AnythingLLM**: Get the desktop application from [https://anythingllm.com/desktop](https://anythingllm.com/desktop).
-2. **Follow Installation Steps**: Run the installer. AnythingLLM guides you through the process. If you encounter issues, refer to their official documentation at [https://docs.anythingllm.com/installation-desktop/overview](https://docs.anythingllm.com/installation-desktop/overview).
-3. **Choose Your LLM**: The AnythingLLM app will prompt you to install your preferred Large Language Model (LLM). Follow its instructions. For more help, see [https://docs.anythingllm.com/installation-desktop/overview](https://docs.anythingllm.com/installation-desktop/overview).
+1. **Download AnythingLLM**: Get the desktop application from https://anythingllm.com/desktop.
+2. **Follow Installation Steps**: Run the installer. AnythingLLM guides you through the process. If you encounter issues, refer to their official documentation at https://docs.anythingllm.com/installation-desktop/overview.
+3. **Choose Your LLM**: The AnythingLLM app will prompt you to install your preferred Large Language Model (LLM). Follow its instructions. For more help, see https://docs.anythingllm.com/setup/llm-configuration/overview.
 
 ### Step 2: Create Your Workspace
 
@@ -84,18 +84,18 @@ If you prefer to use your AI assistant without an internet connection, you can s
 ### Step 1: Prepare GPT4All for Documents
 
 1. Open **GPT4All**.
-2. Go to `Settings > LocalDocs > LocalDocs Setting > Indexing`.
+2. Go to **Settings > LocalDocs > LocalDocs Setting > Indexing**.
 3. In the `Allowed File Extensions` box, make sure these file types are listed: `docx,txt,pdf,md,rst,fxh,csx`. This tells GPT4All to read and understand these types of files, including your shader code and documents.
 
 ### Step 2: Add Knowledge Files to GPT4All
 
-1. In GPT4All, go to `Settings > LocalDocs > LocalDocs Setting`.
+1. In GPT4All, go to **Settings > LocalDocs > LocalDocs Setting**.
 2. Add the `Source/Knowledge` folder (from where you unzipped the GeminiFX project) to the list of folders GPT4All should look at. This will allow GPT4All to read `Examples.txt`, `REFERENCE.md`, `ReShade.fxh`, and `windows-win32-direct3dhlsl.pdf`.
 3. Start the "indexing" process in GPT4All. This makes the files searchable by the AI.
 
 ### Step 3: Configure Your GPT4All AI Model
 
-1. Go to `Settings > Model > Model Settings`.
+1. Go to **Settings > Model > Model Settings**.
 2. Choose the GPT4All AI model you want to use.
 3. Click the `Clone` button to make a copy of the model's settings that you can change.
 4. In the `System Message` box, copy and paste the entire content of the `Source/Instructions.md` file. This will teach your local GPT4All model to act like the GeminiFX expert, just like the online version.
