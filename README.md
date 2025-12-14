@@ -8,7 +8,7 @@ Imagine an AI that knows a lot but sometimes invents facts or gives you old info
 
 ShaderCell uses RAG by following the instructions in `Source/Instructions.md`. These instructions tell the AI to treat the files in the `Source/Knowledge` folder as its primary source of truth. When you ask the AI a question about a shader:
 
-1. **It Retrieves**: The AI searches `REFERENCE.md`, `windows-win32-direct3dhlsl.pdf`, `ReShade.fxh`, and `Examples.txt` to find the most relevant information.
+1. **It Retrieves**: The AI searches `REFERENCE.md`, `windows-win32-direct3dhlsl.pdf`, `ReShade.txt`, and `Examples.txt` to find the most relevant information.
 2. **It Augments**: The AI uses the information it finds to build its response. This ensures that any shader code, explanation, or debugging advice is correct and follows ReShadeFX best practices.
 
 This RAG approach makes ShaderCell a highly specialized and dependable expert for ReShadeFX shader development.
