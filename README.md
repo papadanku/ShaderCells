@@ -13,46 +13,46 @@ ShaderCell uses RAG by following the instructions in Source/Instructions.md. The
 
 This RAG approach makes ShaderCell a highly specialized and dependable expert for ReShadeFX shader development.
 
-Installation for Google Gemini
+## Installation for Google Gemini
 
 Use this guide to prepare your ShaderCell files for Google's Gemini platform and create a specialized AI assistant.
 
-Step 1: Download the Files
+### Step 1: Download the Files
 
 1. Go to the official project page: https://papadanku.github.io/ShaderCell/
 2. Click **`Download .zip`** to get the files.
 3. Unzip to a memorable location on your computer.
 
-Step 2: Create Your Gemini Gem
+### Step 2: Create Your Gemini Gem
 
 1. Open Google Gemini (https://gemini.google.com/app) and log in.
 2. Find and click the **`Gems`** button on the right side of the screen.
 3. Click the **`New Gem`** button on the left side of the screen.
 4. Give your new Gem a name, like "ShaderCell Assistant."
 
-Step 3: Configure Your Gem
+### Step 3: Configure Your Gem
 
 1. Copy `Source/Description.txt` into the Gem's Description box.
 2. Copy `Source/Instructions.md` into the **`Instructions`** box.
 3. Add all `Source/Knowledge` files into the Gem's **`Knowledge`** box.
 
-Installation for Mistral AI's Le Chat
+## Installation for Mistral AI's Le Chat
 
 Use this guide to set up ShaderCell files with Mistral AI's Le Chat for your own ReShadeFX expert.
 
-Step 1: Download the Files
+### Step 1: Download the Files
 
 1. Go to the project's website: https://papadanku.github.io/ShaderCell/
 2. Click **`Download .zip`** to get the files.
 3. Unzip the files to a memorable location on your computer.
 
-Step 2: Create Your Agent
+### Step 2: Create Your Agent
 
 1. Open Le Chat (https://chat.mistral.ai/chat) and log in.
 2. Click **`Agents`** on the left, then select **`Create an agent`**.
 3. Click the **`New agent`** box and give it a name, like "Shader Assistant."
 
-Step 3: Configure Your Agent
+### Step 3: Configure Your Agent
 
 1. Copy `Source/Description.txt` into the **`Purpose of this agent`**.
 2. Copy `Source/Instructions.md` into the **`Instructions`** box.
@@ -62,46 +62,46 @@ Step 3: Configure Your Agent
 6. Add all `Source/Knowledge` files to the library.
 7. Select your new library in the agent customization page.
 
-Installation for AnythingLLM
+## Installation for AnythingLLM
 
 Use AnythingLLM to run your AI assistant locally and offline. Follow this guide to set it up with ShaderCell's ReShadeFX knowledge.
 
-Step 1: Install the Application
+### Step 1: Install the Application
 
 1. Download **AnythingLLM** from https://anythingllm.com/desktop.
 2. Install the following on-screen prompts. For help, see the official documentation.
 3. Install your preferred Large Language Model (LLM). LLMs are AI programs designed to understand and generate human language when given a prompt.
 
-Step 2: Create a Workspace
+### Step 2: Create a Workspace
 
 1. In **AnythingLLM**, click the box in the top-left corner to start a new workspace.
 2. Name your workspace "ReShadeFX Workspace" and press **`Save`**.
 
-Step 3: Add Knowledge Files
+### Step 3: Add Knowledge Files
 
 1. In your workspace, click the **upload icon** next to the workspace name.
 2. Add all `Source/Knowledge` files to the upload area.
 3. Click the **`Move to Workspace`** button to embed the files, which adds them permanently to your workspace so the AI can use them as a reference.
 4. Close the window after the embedding completes.
 
-Step 4: Configure the System Prompt
+### Step 4: Configure the System Prompt
 
 1. Click the **gear icon** to open chat settings.
 2. In **`Chat Settings`**, select **`System Prompt`**.
 3. Copy `Source/Instructions.md` into the **`System Prompt`** box.
 
-Installation for GPT4All
+## Installation for GPT4All
 
 Use GPT4All to run your AI assistant locally, without needing an internet connection. Follow this guide to set up ShaderCell's ReShadeFX capabilities.
 
-Step 1: Prepare the Application
+### Step 1: Prepare the Application
 
 1. Download **GPT4All** from https://www.nomic.ai/gpt4all.
 2. Open **GPT4All**.
 3. Go to **`Settings > LocalDocs > LocalDocs Setting > Indexing`**.
 4. In the **`Allowed File Extensions`** box, add the following file types: `docx,txt,pdf,md,rst,fxh,csx`.
 
-Step 2: Add Knowledge Files
+### Step 2: Add Knowledge Files
 
 1. Go to **`Settings > LocalDocs > LocalDocs Setting`**.
 2. Add `Source/Knowledge` to folders for indexing.
